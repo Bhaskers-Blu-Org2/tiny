@@ -3,6 +3,9 @@
  * Licensed under the MIT License.
  */
 
+/**
+ * Maps the names of commonly used characters to that character's integer character code.
+ */
 export const enum CharCode {
     // C0 controls
 
