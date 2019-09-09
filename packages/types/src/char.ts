@@ -152,5 +152,7 @@ export const enum Char {
 
     // Special
 
-    /** ZERO WIDTH NO-BREAK SPACE, BYTE ORDER MARK, BOM, ZWNBSP     (0xFEFF) */ zeroWidthNoBreakSpace    = "\uFEFF",
+    /** OBJECT REPLACEMENT CHARACTER                                (0xFFFC) */ objectReplacementCharacter  = "\uFFFC",
+    /** REPLACEMENT CHARACTER                                       (0xFFFD) */ replacementCharacter        = "\uFFFD",
+    /** ZERO WIDTH NO-BREAK SPACE, BYTE ORDER MARK, BOM, ZWNBSP     (0xFEFF) */ zeroWidthNoBreakSpace       = "\uFEFF",
 }

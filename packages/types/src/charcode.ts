@@ -152,5 +152,7 @@ export const enum CharCode {
 
     // Special
 
-    /** ZERO WIDTH NO-BREAK SPACE, BYTE ORDER MARK, BOM, ZWNBSP     */ zeroWidthNoBreakSpace    = 0xFEFF,
+    /** OBJECT REPLACEMENT CHARACTER                                */ objectReplacementCharacter   = 0xFFFC,
+    /** REPLACEMENT CHARACTER                                       */ replacementCharacter         = 0xFFFD,
+    /** ZERO WIDTH NO-BREAK SPACE, BYTE ORDER MARK, BOM, ZWNBSP     */ zeroWidthNoBreakSpace        = 0xFEFF,
 }
